@@ -13,6 +13,7 @@
     color: rgba(0, 0, 0, 0.3);
 }
 
+
 .friends-screen__channel{
     margin-top: 25px;
     border-top: 1px solid rgba(0,0,0,0.2);
@@ -46,5 +47,6 @@
     justify-content: center;
     align-items: center;
     font-size: 132px;
-    animation: hideSplashScreen 1s ease-in-out forwards;
+    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 0.5s;
 }
